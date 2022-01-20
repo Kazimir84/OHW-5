@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+}
+
+.border-r5 {
+    border-radius: 5px;
+}
+
+.marg10 {
+    margin: 10px;
+}
+
+.marg-L10 {
+    margin-left: 10px;
+}
+
+.bg-silver {
+    background-color: silver;
+}
+
+.h100 {
+    height: 100px;
+}
+
+.h200 {
+    height: 200px;
+}
+
+.h400 {
+    height: 400px;
+}
+
+.position {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    border: 1px solid #8b8b8b;
+}
+
+.new1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.new {
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.block-B {
+    margin-top: 0;
+}
+
+.block-C {
+    width: 33%;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.block-D {
+    width: 33%;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.block-E {
+    width: 33%;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.block-F {
+    margin: 0 10px 0 0;
+    height: 210px;
+}
+
+.wrap {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 576px) {
+    .wrapper {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .new1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .new {
+        width: 100%;
+    }
+    .block-C, .block-D, .block-E {
+        width: 100%;
+    }
+    .wrap {
+        width: 98%;
+    }
+    .block-F {
+        width: 100%;
+        height: 100px;
+        margin: 0 0 10px;
+    }
+}
