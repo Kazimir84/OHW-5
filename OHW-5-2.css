@@ -93,7 +93,7 @@ body {
         display: flex;
         align-content: center;
         align-items: center;
-        flex-direction: column;
+        flex-direction: row;
     }
     .new1 {
         display: flex;
